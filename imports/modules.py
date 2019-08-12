@@ -1,4 +1,6 @@
-# A module is basically a file containing a set of functions to include in your application. There are core python modules, modules you can install using the pip package manager (including Django) as well as custom modules
+# A module is basically a file containing a set of functions to include in your application. 
+# There are core python modules, modules you can install using the pip package manager 
+# (including Django) as well as custom modules
 
 # Core modules
 import datetime
@@ -15,7 +17,10 @@ from validator import validate_email
 
 # today = datetime.date.today()
 today = date.today()
+print(today)
+
 timestamp = time()
+print(timestamp)
 
 c = CamelCase()
 # print(c.hump('hello there world'))
