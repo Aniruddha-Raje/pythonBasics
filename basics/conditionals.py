@@ -3,6 +3,8 @@
 x = 21
 y = 20
 
+print('Hello',x,'World',y)
+
 # Comparison Operators (==, !=, >, <, >=, <=) - Used to compare values
 
 # Simple if
