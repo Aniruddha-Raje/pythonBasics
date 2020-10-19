@@ -1,15 +1,20 @@
-python --version
-pip --version
+python3 --version
+pip3 --version
 python -m django --version
 pip list
 
+pip3 freeze > requirements.txt
+pip3 install -r requirements.txt
 
-pip install --upgrade pip
+pip3 install requests -t .
+
+pip3 install --upgrade pip
 
 
-pip install virtualenv / pip install pipenv
+python3 -m venv python
+pip3 install virtualenv / pip install pipenv
 virtualenv env
-source env/bin/activate
+source python/bin/activate
 pipenv shell
 pip install django
 
