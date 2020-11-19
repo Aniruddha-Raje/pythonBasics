@@ -25,6 +25,9 @@ for i in range(len(people)):
 for i in range(0, 11):
   print(f'Number: {i}')
 
+for i in range(2, 8, 3):
+    print("The value of i is currently", i)
+
 # While loops execute a set of statements as long as a condition is true.
 
 count = 0

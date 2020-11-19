@@ -14,6 +14,10 @@ VARIABLE RULES:
   - Can have numbers but can not start with one
 """
 
+"""
+variable names should be lowercase, with words separated by underscores to improve readability (e.g., var, my_variable)
+"""
+
 # x = 1           # int
 # y = 2.5         # float
 # name = 'John'   # str
