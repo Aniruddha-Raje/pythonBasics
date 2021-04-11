@@ -29,3 +29,19 @@ def my_function(name, lang = "Python"):
 	return "Function finished!"
 
 print(my_function("Aniruddha"))
+
+############################################################
+
+def adding(a, b, c):
+    print(a, "+", b, "+", c, "=", a + b + c)
+
+# call the adding function here
+adding(c = 1, a = 2, b = 3)
+
+############################################################
+
+def adding2(a, b, c):
+    print(a, "+", b, "+", c, "=", a + b + c)
+
+# call the adding function here
+adding2(1, a = 2, b = 3)

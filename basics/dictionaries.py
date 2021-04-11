@@ -9,35 +9,46 @@ dict =	{
   "year": 1964
 }
 
-#Modify a dictionary
+# Modify a dictionary
 dict["year"] = 2018
 
-#updates or inserts the items to the dictionary
+# updates or inserts the items to the dictionary
 dict.update({"color": "Red", "type":"racing"})
 
-#Copy one dict into another
+# Copy one dict into another
 dict2 =	dict.copy()
 
-#Print values of key "brand"
+# Print values of key "brand"
 print(dict.get('brand'))
 
-#Print items as array
+# Print items as array
 print(dict.items())
 
-#Print only Keys
+# Print only Keys
 print(dict.keys())
 
-#Print only Values
+# Print only Values
 print(dict.values())
 
-#removes the last item
+# removes the last item
 dict.popitem()
 
-#Delete model from the dictionary
+# Delete model from the dictionary
 del dict["model"]
 
-#Delete element with "year" key
+# Delete element with "year" key
 dict.pop("year")
 
-#Removes all the elements from the dictionary
+# Removes all the elements from the dictionary
 dict.clear()
+
+dictionary = {"a": "a_val", "b": "b_val", "c": "c_val"}
+
+for key in dictionary.keys():
+    print(key)
+
+for val in dictionary.values():
+    print(val)
+
+for k, v in dictionary.items():
+    print(k, "->", v)
